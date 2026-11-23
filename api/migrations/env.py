@@ -6,7 +6,7 @@ from sqlalchemy import pool
 from alembic import context
 
 from app.core.config import settings
-from app.db.base import Base
+from app.models import Base
 
 # Import all models here so Alembic can detect them.
 # We will add model imports as we build the application.
